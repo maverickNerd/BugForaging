@@ -4,7 +4,7 @@
  
  **Bug Foraging of reports from Jon on New Relic** (https://hackerone.com/jon_bottarini)
  
-** Bug 1:** https://hackerone.com/reports/197436
+**Bug 1:** https://hackerone.com/reports/197436
  Description: Restricted User is able to edit Alert Conditions of Synthetics Monitors even if Synthetics Permissions is enabled by an admin
  
  
@@ -17,7 +17,7 @@
  Add User1 -> group1 
  
  
-** Monitor Permissions for Group1**
+**Monitor Permissions for Group1**
 
 View all monitors = checked
 Edit all monitors = unchecked
@@ -27,7 +27,7 @@ Edit all private locations = unchecked
 
 Add Admin -> Group2
 
-** Monitor Permissions for Group2**
+**Monitor Permissions for Group2**
 
 View all monitors = checked
 Edit all monitors = checked
