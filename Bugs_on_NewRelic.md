@@ -43,6 +43,7 @@ Edit all private locations = checked
 - Admin account creates two monitors. The monitors are called: Monitor1 and Monitor2.
 
 Monitor 1 : Do not notify
+
 Monitor2: Get Notified with an email filled
 
 
@@ -82,6 +83,9 @@ Check Js files and other subdomains for unique internal endpoints.
 **Bug 3: (Combining 3 reports exposing same confidential info from different endpoints)** https://hackerone.com/reports/267636
 https://hackerone.com/reports/320173
 https://hackerone.com/reports/271861
+
+If you invite a new user to your NR account, and they _already have a NR account_ associated with that email address, NR will hide their full name until they accept the invite and log in to your organization. For example, imagine my email was jon@jon.com and my NR name is “Jon Bottarini” - If you were to invite me to your NR account, my email address will be displayed, but my name would say: “j** *********”
+Bug in this case is that without the user accepting my invite, I can see there full name.
 
 **Description**: Ability to see full name associated with other New Relic accounts
 
