@@ -20,8 +20,11 @@
 **Monitor Permissions for Group1**
 
 View all monitors = checked
+
 Edit all monitors = unchecked
+
 Private locations = checked
+
 Edit all private locations = unchecked
 
 
@@ -30,8 +33,11 @@ Add Admin -> Group2
 **Monitor Permissions for Group2**
 
 View all monitors = checked
+
 Edit all monitors = checked
+
 Private locations = checked
+
 Edit all private locations = checked
 
 - Admin account creates two monitors. The monitors are called: Monitor1 and Monitor2.
